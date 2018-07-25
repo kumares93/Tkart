@@ -1,0 +1,136 @@
+body{
+margin: 0%;
+font-family: Verdana;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.title{
+    width: 70%;
+    float: left;
+    color: #e80000;
+}
+.title h1{
+    color: #003ba1;
+}
+
+.logo img{
+width: 250px;
+height: 100px;
+
+}
+nav{
+    position: sticky;
+    float: left;
+    background-color: #003ba1;
+    color: #fff;
+    width: 100%;
+    padding: 12px 16px;
+    top: 0;
+    z-index: 55555;
+}
+nav .section{
+    margin: 0px;
+    padding: 0px;
+}
+nav .section li{
+    position: relative;
+    float: left;
+width: 20%;
+height: 20px;
+list-style: none;
+font-size: 18px;
+font-weight: normal;
+text-align: center;
+}
+nav li:hover{
+    color: #e80000;
+}
+.section li ul{
+display: none;
+
+}
+.section li ul li{
+float: none;
+position: relative;
+min-width: 100%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 5555;
+color: #fff;
+background-color: #003ba1;
+}
+.section li ul li:hover{
+    color: #e80000;
+}
+.item1 ul li:hover ul{
+display: block;
+}
+.section li ul li ul{
+    display: none;
+    float: left;
+    position: absolute;
+    left: 83%;
+    top:10%;
+    z-index: 5555;
+    }
+.section li ul li ul li{
+    float: none;
+    position: relative;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 5555;
+    color: #fff;
+    background-color: #003ba1;
+    }
+
+.sec_inner{
+    display: none;
+}
+
+.your-class{
+    clear: both;
+    width: 100%;
+    height:500px;
+    display: block;
+    position: relative;
+}
+.your-class img{
+    width: 100%;
+    height: 500px;
+}
+.in-container{
+    width: 80%;
+    padding: 5% 10%;
+    height: auto;
+}
+.in-container div{
+    width: 25%;
+    height: 15em;
+    float: left;
+    text-align: center;
+}
+.in-container div img{
+    width: 100%;
+    height: 200px;
+}
+.in-container div img:hover{
+        transform: scale(1.1);
+}
+
+
+
+footer{
+    clear: both;
+    width: 100%;
+    color: #fff;
+    background-color: #003ba1;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+i:hover{
+    color: #e80000;
+}
